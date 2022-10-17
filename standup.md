@@ -4,9 +4,10 @@
 - Standup Date and Time
 - Topic
 - Goals
+- Any notable links/documents
 
 
-## <ins>Individual Contributions</ins>
+## Individual Contributions
 
 ### Person A
 
@@ -30,14 +31,14 @@ _<center>Continue process for each team member...</center>_
 
 <br>
 
-## <ins>Notable Outcomes</ins>
+## Notable Outcomes
 <br>
 
 _<center>Any notable things shared during the meeting will go here</center>_
 
 <br>
 
-## <ins>Meeting Summary</ins>
+## Meeting Summary
 <br>
 
 _<center>Meeting summary will go here</center>_
