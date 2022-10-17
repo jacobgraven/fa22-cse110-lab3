@@ -6,7 +6,10 @@
   <meta charset="UTF-8">
   <meta name="description" content="Meeting schedule for group 27 in CSE110">
   <meta name="author" content="Jacob Graven">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="data/images/steve.ico">
+  <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">-->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -24,12 +27,10 @@
   <hr>
   <main>
     <section>
-      <div id="meetingHeader1">
-        <h2>Meeting 1</h2>
-        <h3>Introductions</h3>
-        <h4>Oct 5, 2022</h4>
-      </div>
-      <div id="attendanceDiv1">
+      <h2>Meeting 1</h2>
+      <h3>Introductions</h3>
+      <h4>Oct 5, 2022</h4>
+      <div class="container">
         <details>
           <summary><i>Attendance List</i></summary>
           <ul>
@@ -39,30 +40,36 @@
           </ul>
         </details>
       </div>
+
       <br>
-      <div id="agendaDiv1">
-        <details>
-          <summary><i>Agenda</i></summary>
-          <ol>
-            <li><span>Introductions</span></li>
-            <li><span>Future Goals/Agenda</span></li>
-            <li><span>...</span></li>
-          </ol>
-        </details>
-      </div>
-      <p>Simple meeting that just involved getting to meet eachother.
+
+      <details>
+        <summary><i>Agenda</i></summary>
+        <ol>
+          <li><span>Introductions</span></li>
+          <li><span>Future Goals/Agenda</span></li>
+          <li><span>...</span></li>
+        </ol>
+      </details>
+
+      <p class="texts">Simple meeting that just involved getting to meet eachother.
         <strong>The outline and description of the project will happen next meeting.</strong>
         Also make sure to fill out the <b>availability calendar.</b>
       </p>
-      <p>Because no <i>meaningful</i> audio, video, or images can be attached to this meeting, please look at the
+      <p class="texts">Because no <i>meaningful</i> audio, video, or images can be attached to this meeting, please look
+        at the
         examples below. <em>These will be replaced with meaningful content in the future.</em></p>
-      <img src="data/images/steve.jpg" alt="My cat Steve" width="250" height="300">
-      <img src="data/images/cleo.jpg" alt="My cat Cleo" width="250" height="300">
-      <img src="data/images/cam.jpg" alt="My cat Camus" width="250" height="300">
+      <div id="catImg">
+        <img id="steve" src="data/images/steve.jpg" alt="My cat Steve" width="250" height="300">
+        <img id="cleo" src="data/images/cleo.jpg" alt="My cat Cleo" width="250" height="300">
+        <img id="cam" src="data/images/cam.jpg" alt="My cat Camus" width="250" height="300">
+      </div>
       <br><br>
-      <audio controls>
-        <source src="data/audio/song.mp3" type="audio/mpeg">
-      </audio>
+      <div class="audioBox">
+        <audio controls>
+          <source src="data/audio/song.mp3" type="audio/mpeg">
+        </audio>
+      </div>
       <br>
       <video width="320" height="240" controls>
         <source src="data/video/video.mp4" type="video/mp4">
@@ -101,83 +108,129 @@
           </ol>
         </details>
       </div>
-      <p>The <b>meeting description</b> will go here. <b>Other content</b> will be included below.</p>
-      <p>Normally, we can expect most of the following to be here:</p>
-      <ul>
-        <li>Images</li>
-        <li>Video</li>
-        <li>Audio</li>
-        <li>Additional information about the meeting</li>
-      </ul>
+      <p class="texts">The <b>meeting description</b> will go here. <b>Other content</b> will be included below.</p>
+
+      <div id="kittyContainer">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="crazyCleo" src="data/images/crazycleo.jpg" alt="Crazy Cleo" width="250" height="300">
+      </div>
+
+      <br><br>
+
+      <div id="kittyGrid">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+        <img id="gridCleo" src="data/images/gridcleo.jpg" alt="Crazy Cleo" width="250" height="300">
+      </div>
+
+      <br><br>
+
+      <div class="buttonGrid">
+        <button type="button" class="destructionButton">Button A</button>
+        <button type="button" class="destructionButton">Button B</button>
+        <button type="button" class="destructionButton">Button C</button>
+        <button type="button" class="destructionButton">Button D</button>
+        <button type="button" class="destructionButton">Button E</button>
+        <button type="button" class="destructionButton">Button F</button>
+      </div>
+      
+      <br><br>
+      <p>Normal</p>
+      <p>p + p</p>
     </section>
     <hr>
     <div id="additionalContent">
       <h2><span>Additional Content</span></h2>
     </div>
-    <form>
-      <fieldset>
-        <legend>Question Form</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="date">Date:</label>
-        <input type="date" id="date" name="trip-start" value="2022-10-09" min="2022-10-09" max="2024-12-31"><br><br>
-        <textarea id="question" name="question" rows="4" cols="50">Type your question here...</textarea><br><br>
-        <input type="submit" value="Submit">
-      </fieldset>
-    </form>
+    <div class="formContainer">
+      <form>
+        <fieldset>
+          <legend>Question Form</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="trip-start" value="2022-10-09" min="2022-10-09" max="2024-12-31"><br><br>
+          <textarea id="question" name="question" rows="4" cols="50">Type your question here...</textarea><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+      <br>
+      <form>
+        <fieldset>
+          <legend>Concern Form</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="reqname" name="name"><br>
+          <p class="formText">Concern type:</p>
+          <input type="radio" id="concern1" name="concern" value="1">
+          <label for="concern1">Personal concern</label><br>
+          <input type="radio" id="concern2" name="concern" value="2">
+          <label for="concern2">Project concern</label><br>
+          <input type="radio" id="concern3" name="concern" value="3">
+          <label for="concern3">Other</label><br><br>
+          <textarea id="reqquestion" name="question" rows="4"
+            cols="50">Type additional information here...</textarea><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+      <br>
+      <form>
+        <fieldset>
+          <legend>Personal Information Form</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="infoname" name="name"><br>
+          <p class="formText">Residence and Transportation Information:</p>
+          <input type="checkbox" id="info1" name="info1" value="car">
+          <label for="info1"> I have a car</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="oncampus">
+          <label for="vehicle2"> I live on campus</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="offcampus">
+          <label for="vehicle3"> I live off campus</label><br><br>
+          <label for="number">Favorite number:</label>
+          <input list="numbers" name="number" id="number">
+          <datalist id="numbers">
+            <option value="420">
+            <option value="69">
+            <option value="i">
+          </datalist><br><br>
+          <label for="days">Choose an ideal meeting day:</label>
+          <select name="days" id="days">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+          </select><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </div>
     <br>
-    <form>
-      <fieldset>
-        <legend>Concern Form</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="reqname" name="name"><br>
-        <p>Concern type:</p>
-        <input type="radio" id="concern1" name="concern" value="1">
-        <label for="concern1">Personal concern</label><br>
-        <input type="radio" id="concern2" name="concern" value="2">
-        <label for="concern2">Project concern</label><br>
-        <input type="radio" id="concern3" name="concern" value="3">
-        <label for="concern3">Other</label><br><br>
-        <textarea id="reqquestion" name="question" rows="4"
-          cols="50">Type additional information here...</textarea><br><br>
-        <input type="submit" value="Submit">
-      </fieldset>
-    </form>
-    <br>
-    <form>
-      <fieldset>
-        <legend>Personal Information Form</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="infoname" name="name"><br>
-        <p>Residence and Transportation Information:</p>
-        <input type="checkbox" id="info1" name="info1" value="car">
-        <label for="info1"> I have a car</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="oncampus">
-        <label for="vehicle2"> I live on campus</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="offcampus">
-        <label for="vehicle3"> I live off campus</label><br><br>
-        <label for="number">Favorite number:</label>
-        <input list="numbers" name="number" id="number">
-        <datalist id="numbers">
-          <option value="420">
-          <option value="69">
-          <option value="i">
-        </datalist><br><br>
-        <label for="days">Choose an ideal meeting day:</label>
-        <select name="days" id="days">
-          <option value="Monday">Monday</option>
-          <option value="Tuesday">Tuesday</option>
-          <option value="Wednesday">Wednesday</option>
-          <option value="Thursday">Thursday</option>
-          <option value="Friday">Friday</option>
-          <option value="Saturday">Saturday</option>
-          <option value="Sunday">Sunday</option>
-        </select><br><br>
-        <input type="submit" value="Submit">
-      </fieldset>
-    </form>
-    <br>
-    <button type="button">Click me to destroy a random star in the universe!</button>
+    <div class="buttonContainer">
+      <button type="button" class="destructionButton">Click me to destroy a random star in the universe!</button>
+      <button type="button" class="destructionButton">Click me to destroy a planet in the universe!</button>
+      <button type="button" class="destructionButton">Click me to destroy a random lifeform in the universe!</button>
+    </div>
     <br><br>
   </main>
   <hr>
