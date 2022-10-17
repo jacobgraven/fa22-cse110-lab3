@@ -32,6 +32,7 @@ nav {
     position: static;
     text-align: center;
     display: block;
+    margin: auto;
 }
 
 h3 {
@@ -46,6 +47,7 @@ h3 {
 
 a[href] {
     font-size: 1em;
+    margin: auto;
 }   
 
 p.texts {
