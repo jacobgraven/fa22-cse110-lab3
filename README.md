@@ -1,3 +1,3 @@
-# Lab 2 - Meeting Minutes HTML Website
+# Lab 3
 
-Link to  Meeting Minutes Site: https://jacobgraven.github.io/Lab2_Starter/
+Link to  Meeting Minutes Site: https://jacobgraven.github.io/fa22-cse110-lab3/
