@@ -8,6 +8,7 @@
 
 ## Pre-Meeting Notes
 <br>
+
 _<center>Any notes used before the meeting will go here</center>_
 
 ## Individual Contributions
