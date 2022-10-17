@@ -4,6 +4,12 @@
     src: url(raleway.ttf)format("opentype");
 }
 
+@media only screen and (max-width: 650px) {
+    p {
+        color: blue;
+        text-align: center;
+    }
+}
 
 h1, h2 {
     color: rgb(14, 17, 20);
@@ -16,12 +22,6 @@ p {
     font-family: 'raleway';
 }
 
-@media only screen and (max-width: 650px) {
-    body {
-        color: red;
-    }
-}  
-
 h1 {
     position: fixed;
     background-color: #6371ca;
@@ -29,6 +29,7 @@ h1 {
 }
 
 nav {
+    position: static;
     text-align: center;
     display: block;
 }
@@ -96,7 +97,6 @@ body {
 video {
     border: 5px solid black;
     height: 174px;
-    border-style: solid;
     width: 17%;
     color: rgb(0, 0, 0);
     min-width: 17%;
@@ -154,6 +154,10 @@ p + p {
     color: red;
 }
 
+img + img {
+    margin-left: 5px;
+}
+
 p strong {
     color: #000000;
     text-shadow:#660099
@@ -166,6 +170,17 @@ p b {
 
 details > summary {
     color: darkblue;
+}
+
+div > details {
+    background-color: hsl(301, 72, 16);
+    border: 5px solid black;
+    width: 51%;
+    color: rgb(0, 0, 0);
+}
+
+button ~ button {
+    color: gray;
 }
 
 p ~ i {
