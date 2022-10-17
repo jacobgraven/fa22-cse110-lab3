@@ -1,0 +1,155 @@
+/* Header styling */
+@font-face {
+    font-family: 'raleway';
+    src: url(raleway.ttf)format("opentype");
+}
+
+
+h1, h2 {
+    color: rgb(14, 17, 20);
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'raleway';
+}
+
+p {
+    font-family: 'raleway';
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        color: red;
+    }
+}  
+
+h1 {
+    position: fixed;
+    background-color: #6371ca;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    display: block;
+}
+
+h3 {
+    position: relative;
+    text-align: left;
+    color: #660099;
+}
+
+* p {
+    color: purple;
+}
+
+a[href] {
+    font-size: 1em;
+}   
+
+p.texts {
+    margin-top: 25px;
+    margin-bottom: 6.6mm;
+    margin-right: 19.54cm;
+    margin-left: 10px;
+    display: inline-block;
+  }
+
+.formText {
+    margin: 1.5em 10rem 2ch 0ch;
+    display: block;
+}
+
+/* Change background color */
+body {
+    background-color: lightblue;
+}
+
+/* Start formatting cat images */
+#catImg {
+    background-color: hsl(301, 72, 16);
+    border: 5px solid black;
+    border-style: dashed;
+    border-radius: 10%;
+    width: 51%;
+    color: rgb(0, 0, 0);
+}
+
+#steve {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#cleo {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+#cam {
+    padding: 10px 40px 5px 0px;
+}
+/* End formatting cat images */
+
+video {
+    border: 5px solid black;
+    height: 174px;
+    border-style: solid;
+    width: 17%;
+    color: rgb(0, 0, 0);
+    min-width: 17%;
+    max-width: 50%;
+}
+
+input:hover {
+    color: purple;
+}
+
+button:hover {
+    color: purple;
+}
+
+button:active {
+    background: red; 
+}   
+
+.formContainer {
+    padding-left: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+}
+
+#kittyContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 25px;
+    padding-left: 25px;
+}
+
+#kittyGrid {
+    padding-left: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+}
+
+.buttonGrid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+}
+
+p + p {
+    color: red;
+}
