@@ -153,3 +153,21 @@ button:active {
 p + p {
     color: red;
 }
+
+p strong {
+    color: #000000;
+    text-shadow:#660099
+}
+
+p b {
+    color: #590664;
+    text-shadow:#660099;
+}
+
+details > summary {
+    color: darkblue;
+}
+
+p ~ i {
+    color: yellow;
+}
