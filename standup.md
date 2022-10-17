@@ -11,6 +11,8 @@
 
 _<center>Any notes used before the meeting will go here</center>_
 
+<br>
+
 ## Individual Contributions
 
 ### Person A
