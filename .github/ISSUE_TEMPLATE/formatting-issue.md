@@ -11,10 +11,10 @@ assignees: ''
 Please provide a brief overview of the problem
 
 ## Description
-Please provide an in-depth description of the problem
+Please provide an in-depth description of the problem. Indicate where the problem occurs either on the webpage or on the source code itself
 
 ## Screenshots
-Please provide screenshots of the issue
+Please provide screenshots of the issue (if possible)
 
 ## Suggestions
-Please provide some suggestions (if any)
+Please provide some suggestions (if any). If suggestions are made, please include possible code changes.
